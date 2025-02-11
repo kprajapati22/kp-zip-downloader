@@ -1,0 +1,65 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: KP Zip Downloader\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-09 20:10+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.14; wp-6.7.1\n"
+"X-Domain: kp-zip-downloader"
+
+#. Description of the plugin
+msgid ""
+"A WordPress plugin to download installed plugins and themes as zip files "
+"from the admin dashboard."
+msgstr ""
+
+#: includes/class-kp-zip-downloader.php:31
+#: includes/class-kp-zip-downloader.php:47
+#: includes/class-kp-zip-downloader.php:62
+msgid "Download ZIP"
+msgstr ""
+
+#: includes/class-kp-zip-downloader.php:124
+msgid "Failed to create ZIP file."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/kprajapati22/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/kp-zip-downloader"
+msgstr ""
+
+#: includes/class-kp-zip-downloader.php:73
+msgid "Invalid nonce."
+msgstr ""
+
+#: includes/class-kp-zip-downloader.php:93
+msgid "Invalid plugin directory."
+msgstr ""
+
+#: includes/class-kp-zip-downloader.php:106
+msgid "Invalid theme directory."
+msgstr ""
+
+#. Author of the plugin
+msgid "Kalpesh Prajapati"
+msgstr ""
+
+#. Name of the plugin
+msgid "KP Zip Downloader"
+msgstr ""
+
+#: includes/class-kp-zip-downloader.php:117
+msgid "ZipArchive is not available."
+msgstr ""
