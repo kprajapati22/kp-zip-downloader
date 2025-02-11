@@ -5,6 +5,9 @@
         // Add "Download ZIP" link to each theme action area
         $( 'div.theme-actions' ).each( function() {
             var themeName = $( this ).closest( 'div.theme' ).attr( 'data-slug' );
+            if ( themeName === undefined ) {
+                themeName = kp_zip_downloader.theme_name;
+            }
             var url = new URL( kp_zip_downloader.themes_url );
             var params = new URLSearchParams( url.search );
 

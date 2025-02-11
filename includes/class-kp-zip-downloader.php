@@ -29,6 +29,7 @@ class KP_Zip_Downloader {
                     'value' => wp_create_nonce( 'kp_download_nonce' ),
                 ],
                 'download_link_text' => esc_html__( 'Download ZIP', 'kp-zip-downloader' ),
+                'theme_name' => get_option( 'stylesheet' ),
             ] );
         }
     }
