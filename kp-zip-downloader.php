@@ -3,7 +3,7 @@
  * Plugin Name: KP Zip Downloader
  * Plugin URI: https://wordpress.org/plugins/kp-zip-downloader
  * Description: A WordPress plugin to download installed plugins and themes as zip files from the admin dashboard.
- * Version: 1.0.2
+ * Version: 1.0.3
  * Author: Kalpesh Prajapati
  * Author URI: https://profiles.wordpress.org/kprajapati22/
  * License: GPLv2 or later
@@ -16,7 +16,7 @@
 if ( ! defined( 'ABSPATH' ) ) { exit; }
 
 // Define constants.
-define( 'KP_ZIP_DOWNLOADER_VERSION', '1.0.2' );
+define( 'KP_ZIP_DOWNLOADER_VERSION', '1.0.3' );
 define( 'KP_ZIP_DOWNLOADER_DIR', plugin_dir_path( __FILE__ ) );
 define( 'KP_ZIP_DOWNLOADER_URL', plugin_dir_url( __FILE__ ) );
 

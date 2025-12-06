@@ -1,8 +1,8 @@
 === KP Zip Downloader ===
 Contributors: kprajapati22
 Tags: plugins, themes, zip, download
-Tested up to: 6.7
-Stable tag: 1.0.2
+Tested up to: 6.9
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -53,6 +53,9 @@ This plugin is currently designed for single-site installations. Multisite suppo
 No, the plugin uses the built-in WordPress functions and PHP libraries to create ZIP files.
 
 == Changelog ==
+
+= Version 1.0.3 - 2025-12-06 =
+* Added plugin/theme name in the root of the zip.
 
 = Version 1.0.2 - 2025-02-11 =
 * Fixed download issue when only one theme is available.

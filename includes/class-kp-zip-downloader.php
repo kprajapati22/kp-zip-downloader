@@ -126,13 +126,21 @@ class KP_Zip_Downloader {
         }
 
         $source = realpath( $source );
+
+        if( ! $source ) {
+            wp_die( esc_html__( 'Invalid source path.', 'kp-zip-downloader' ) );
+        }
+
         if ( is_dir( $source ) ) {
+            // Make path relative to parent directory so plugin/theme folder is at root of zip
+            $root_path = dirname( $source );
+
             $files = new RecursiveIteratorIterator( new RecursiveDirectoryIterator( $source ), RecursiveIteratorIterator::LEAVES_ONLY );
 
             foreach ( $files as $name => $file ) {
                 if ( ! $file->isDir() ) {
                     $file_path = $file->getRealPath();
-                    $relative_path = substr( $file_path, strlen( $source ) + 1 );
+                    $relative_path = substr( $file_path, strlen( $root_path ) + 1 );
                     $zip->addFile( $file_path, $relative_path );
                 }
             }
